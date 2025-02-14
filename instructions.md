@@ -23,7 +23,7 @@
    - validations.py
 - Download the data files
    - employees.txt https://github.com/suchialex/CINS3002-HW06/blob/main/employees.txt
-   - employees.csv https://github.com/suchialex/CINS3002-HW06/blob/main/employees.csv files
+   - employees.csv https://github.com/suchialex/CINS3002-HW06/blob/main/employees.csv
 </details>
 
 
