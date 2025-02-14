@@ -287,13 +287,14 @@
 
 <details>
   <summary>
-    ✅ Bonus 2 pts: Unique email addresses by generate_email()
+    ✅ Bonus 2 pts: Modify generate_email() return unique email addresses
   </summary>
   
   - Inside generate_email(),
      - after the genrated email address is calculated, check it already exists for someone else
-     - in that case, add a 1 to the end of the username, lookup again
-     - and if that email address exists too, then add a 2,
+     - in that case, add a 1 to the end of the username
+     - and if that email address exists too, then add a 2 at the end of the username
+     - and if that email address exists too, then add a 3 at the end of the username
      - and so on, until a unique email address is generated 
      - For example if millj@company.com already exists, then create millj1@company.com, if that exists too, then create millj2@company.com
 </details>
