@@ -14,13 +14,16 @@
     ✅ Copy Code
   </summary>
 
-Copy all the code from HW05 into the folder employees
-  - main.py
-  - functions.py
-  - list_functions.py
-  - multilist_functions.py
-  - validations.py
-
+- Create a new project in PyCharm and a folder of your choice
+- Copy all the code from HW05 into the folder employees
+   - main.py
+   - functions.py
+   - list_functions.py
+   - multilist_functions.py
+   - validations.py
+- Download the data files
+   - employees.txt https://github.com/suchialex/CINS3002-HW06/blob/main/employees.txt
+   - employees.csv https://github.com/suchialex/CINS3002-HW06/blob/main/employees.csv files
 </details>
 
 
