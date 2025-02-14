@@ -14,7 +14,8 @@
     ✅ Copy Code
   </summary>
 
-Copy all the code from HW07 into the folder employees
+Copy all the code from HW05 into the folder employees
+  - main.py
   - functions.py
   - list_functions.py
   - multilist_functions.py
@@ -76,8 +77,8 @@ Copy all the code from HW07 into the folder employees
     ✅ Test validate_first_name
   </summary>
 
-  - Comment out any code inside main
-  - call validate_first_name and store in a variable (may have to import the module)
+  - Comment out the call to employee_operations inside main
+  - call validate_first_name and store in a variable (may have to import the validations module)
   - print this variable and test code with the test cases provided
 </details>
 
@@ -251,7 +252,8 @@ Copy all the code from HW07 into the folder employees
   - This is a value-returning function
   - It accepts two strings, the valid first and last names
   - Email address is the first four characters of the last name and the first character of the first name concatenated with a string @company.com all in lowercase
-  - So, if first name is john and last name is mills, the email address will be millj@company.com
+  - So, if first name is `john` and last name is `mills`, the email address will be `millj@company.com`
+  - Email address must be in lowercase
   - Return this email
 </details>
 
@@ -271,31 +273,24 @@ Copy all the code from HW07 into the folder employees
 
 <details>
   <summary>
-    ✅ In all functions files
+    ✅ After testing validations
   </summary>
 
-  - Modify code in all the functions in
-    - functions.py,
-    - list_functions.py and
-    - multilist_functions.py
-  
-  to allow this fifth data element
-- You also have to modify file contents to have five data elements instead of four
-
+  - If all the validation functions execute correctly, delete all the validate calls from main and uncomment the call to employee_operations
+  - Make sure you are importing multilist_functions
+  - Execute your code and make sure everything is working fine
 </details>
 
 
 <details>
   <summary>
-    ✅ Bonus 3 pts: Improve generate_email()
+    ✅ Bonus 2 pts: Unique email addresses by generate_email()
   </summary>
   
-  - Inside generate_email(), before the return statement,
-    - lookup the multi-dimensional list to see if the genrated email address is already created for someone else
-    - in that case, add a 1 to the end of the username, lookup again
-    - and if that email address exists too, then add a 2,
-    - so on until there are no previous email adresses.
-    - All this will have to be in a while loop<br>
-    - You are welcome to write another lookup function that takes email as a parameter and call it inside the while loop until False is returned
-  - For example if millj@company.com already exists, then create millj1@company.com, if that exists too, then create millj2@company.com
+  - Inside generate_email(),
+     - after the genrated email address is calculated, check it already exists for someone else
+     - in that case, add a 1 to the end of the username, lookup again
+     - and if that email address exists too, then add a 2,
+     - and so on, until a unique email address is generated 
+     - For example if millj@company.com already exists, then create millj1@company.com, if that exists too, then create millj2@company.com
 </details>
