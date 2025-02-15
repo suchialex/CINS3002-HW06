@@ -288,6 +288,15 @@
 
 <details>
   <summary>
+    ✅ Copy code to replit
+  </summary>
+  
+  - You can upload the entire **employees** folder to your repl
+  - You can delete other files from your repl except main.py because we have all that in the employees folder
+</details>
+
+<details>
+  <summary>
     ✅ Bonus 2 pts: Modify generate_email() return unique email addresses
   </summary>
   
