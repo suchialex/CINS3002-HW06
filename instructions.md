@@ -45,7 +45,7 @@
   - no special characters except space
   - cannot be an empty string     
   If user enters a valid first name, we format the valid first name where the first character of each word is capitalized, and return this formatted valid name to the calling function.  
-  If the user enters an invalid name, we print Invalid First Name entered, and ask user to provide first name again.  
+  If the user enters an invalid name, we print `Invalid: Cannot have numbers or special characters`, and ask user to provide first name again.  
   The whole process is repeated until the user enters a valid first name
 
   <details>
@@ -101,7 +101,7 @@
   - special characters
   - no numbers   
   If user enters a valid last name, we format the valid last name where the first character is capitalized, and return this formatted valid last name to the calling function.  
-  If the user enters an invalid last name, we print Invalid Last Name entered, and ask user to provide last name again.  
+  If the user enters an invalid last name, we print `Invalid: Cannot have numbers`, and ask user to provide last name again.  
   The whole process is repeated until the user enters a valid last name
 
 <details>
@@ -112,22 +112,20 @@
   - Inside the while loop
     - Using an input statement to ask for employee last name, store it in a variable
     - Using the appropriate string methods, check if name is alphabetical or special characters, but not numeric
-    - If yes, set valid to True
-    - If not, print Invalid Last Name Entered
-  Outside the while loop, (the last name is valid, if you made it out of the while loop)
-  - Format name to where the first letter capitalized and the rest of the characters are lowercase
-  - Return this formatted last name
+    - (💡You may try using regular expressions, 0r the map function along with other string testing methods or for loop or any() function)
+    - If valid last name is entered, set valid to True
+    - If not, print `Invalid: Cannot have numbers`
+- Outside the while loop, (the last name is valid, if you made it out of the while loop)
+- Format name to where the first letter capitalized and the rest of the characters are lowercase
+- Return this formatted last name
 </details>
 
   <details>
-    <summary>💡 Hint: (For string testing</summary>
-    
-  - You may try using regular expressions
-  - Or the map function along with other string testing methods
+    <summary>📜 Testing:</summary>
+
+  - If the user enters Wilkes2, it is invalid input because of the number
   - If the user enters mac donald, the returned last name should be Mac Donald
   - If the user enters o'brian the returned last name should be O'Brian
-  - So use the appropriate string method(s) for that
-  - If the user enters Wilkes2, it is invalid input because of the number
   </details> 
 
 </details>
