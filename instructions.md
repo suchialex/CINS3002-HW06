@@ -15,15 +15,18 @@
   </summary>
 
 - Create a new project in PyCharm and a folder of your choice
-- Copy all the code from HW05 into the folder employees
-   - main.py
+- Copy main.py from HW05
+- Create a new folder called **employees**
+- Copy the code for the functions below from HW05 into the folder **employees**
    - functions.py
    - list_functions.py
    - multilist_functions.py
    - validations.py
-- Download the data files
+- Download the data files to the folder employees
    - employees.txt https://github.com/suchialex/CINS3002-HW06/blob/main/employees.txt
    - employees.csv https://github.com/suchialex/CINS3002-HW06/blob/main/employees.csv
+- Because of this new folder structure, you will have to change our import statements and file open functions with the correct file path
+- Refer to the video if your code doesn't work
 </details>
 
 
