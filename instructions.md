@@ -151,7 +151,7 @@
 ## In validations.py
 
 <details>
-  <summary>✅ Modify validate_department</summary>
+  <summary>✅ Modify validate_department()</summary>
 
 - Department
   - cannot be numeric
@@ -203,7 +203,7 @@
 ## In validations.py
 <details>
   <summary>
-    ✅ Modify validate_salary
+    ✅ Modify validate_salary()
   </summary>
 
   - Salary must be all numeric (no decimal points or dollar symbols allowed)
