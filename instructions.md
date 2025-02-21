@@ -282,6 +282,7 @@
 
   - If all the validation functions execute correctly, delete all the validate calls from main and uncomment the call to employee_operations
   - Make sure you are importing multilist_functions
+  - In add_employee() function, after call to validate_salary(), add a function call to generate_email, add this as a new element to the employee list
   - Execute your code and make sure everything is working fine
 </details>
 
