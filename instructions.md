@@ -301,8 +301,9 @@
     ✅ Bonus 2 pts: Modify generate_email() return unique email addresses
   </summary>
   
+  This function now needs three parameters, first name, last name and the employees list
   - Inside generate_email(),
-     - after the genrated email address is calculated, check it already exists for someone else
+     - after the generated email address is calculated, check if it already exists for someone else
      - in that case, add a 1 to the end of the username
      - and if that email address exists too, then add a 2 at the end of the username
      - and if that email address exists too, then add a 3 at the end of the username
