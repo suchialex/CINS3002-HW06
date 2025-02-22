@@ -25,7 +25,7 @@
 - Download the data files to the folder employees
    - employees.txt https://github.com/suchialex/CINS3002-HW06/blob/main/employees.txt
    - employees.csv https://github.com/suchialex/CINS3002-HW06/blob/main/employees.csv
-- Because of this new folder structure, you will have to change our import statements and file open functions with the correct file path
+- Because of this new folder structure, you will have to change your import statements and file open functions with the correct file path
 - Refer to the video if your code doesn't work
 </details>
 
@@ -61,8 +61,8 @@
     &ensp; - If yes, set valid to True<br>
     &ensp; - If not, print Invalid First Name Entered<br>
     Outside the while loop, (the first name is valid, if you made it out of the while loop)<br>
-    - Format first name to where the first letter of each word is capitalized and the rest of them are lowercase<br>
-    - Return this formatted first name<br>
+    - Format first name to where the first letter of each word is capitalized and the rest of them are lowercase
+    - Return this formatted first name
   </details>
 
   <details>
