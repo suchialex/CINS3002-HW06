@@ -16,13 +16,13 @@
 
 - Create a new project in PyCharm and a folder of your choice
 - Copy main.py from HW05
-- Create a new folder called **employees**
-- Copy the code for the functions below from HW05 into the folder **employees**
+- Create a new folder called **hw06**
+- Copy the code for the functions below from HW05 into the folder **hw06**
    - functions.py
    - list_functions.py
    - multilist_functions.py
    - validations.py
-- Download the data files to the folder employees
+- Download the data files to the folder hw06
    - employees.txt https://github.com/suchialex/CINS3002-HW06/blob/main/employees.txt
    - employees.csv https://github.com/suchialex/CINS3002-HW06/blob/main/employees.csv
 - Because of this new folder structure, you will have to change your import statements and file open functions with the correct file path
@@ -86,6 +86,15 @@
   - Comment out the call to employee_operations inside main
   - call validate_first_name and store in a variable (may have to import the validations module)
   - print this variable and test code with the test cases provided
+
+   <details>
+    <summary>📜 Testing:</summary>
+
+  - If the user enters Wilkes2, it is invalid input because of the number
+  - If the user enters o'brian it is invalid input because of the '
+  - If the user enters mac donald, the returned first name should be Mac Donald
+  </details> 
+  
 </details>
 
 
@@ -292,8 +301,7 @@
     ✅ Copy code to replit
   </summary>
   
-  - You can upload the entire **employees** folder to your repl
-  - You can delete other files from your repl except main.py because we have all that in the employees folder
+  - Copy the code from hw06 to your repl in the appropriate folder
 </details>
 
 <details>
