@@ -5,7 +5,7 @@
    - Department
    - Salary
    - Email
-3. In this assignment, we will validate all user input
+3. In this assignment, we will validate all user input - so far, we have accepted any values that the user entered for employee name, salary and department. But now, we will restrict the user to enter accepted values by writing code in our validate functions.
 4. In addition, we will write a new function to generate email address from first and last names  
 5. These validations will be coded in validations.py  
 
