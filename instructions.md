@@ -1,4 +1,26 @@
 # Instructions
+
+<details>
+  <summary>
+    💡 REPL/PyCharm Guide
+  </summary>
+
+  - To toggle commenting, highlight the line(s) and press Ctrl + /
+  - To move a statement or block of statements one indent to the right, highlight the statement(s)  press Tab
+  - To move a statement or block of statements one indent to the left, highlight the statement(s)  press Shift+Tab
+  - Avoid using backspaces or spaces to remove or place indents
+  - REPL Comments
+    - To ask the instructor a code question, highlight the line(s) of code and press Alt + / and type in your question/issue/comment and click on collapse
+    - To view comments placed by the instructor click on the comment icon at the end of any highlighted code
+    - If your issue is resolved, click on Resolve to remove the comment
+</details>
+
+
+<details>
+  <summary>
+    Assignment Instructions
+  </summary>
+
 1. This is a part of the project to validate user input to manage employee inventory - each employee record has five data elements,
    - Employee ID
    - Name
@@ -8,10 +30,12 @@
 3. In this assignment, we will validate all user input - so far, we have accepted any values that the user entered for employee name, salary and department. But now, we will restrict the user to enter accepted values by writing code in our validate functions.
 4. In addition, we will write a new function to generate email address from first and last names  
 5. These validations will be coded in validations.py  
+</details>
+
 
 <details>
   <summary>
-    ✅ Copy Code
+    ✅ Create a new PyCharm project
   </summary>
 
 - Create a new project in PyCharm and a folder of your choice
@@ -317,4 +341,18 @@
      - and if that email address exists too, then add a 3 at the end of the username
      - and so on, until a unique email address is generated 
      - For example if millj@company.com already exists, then create millj1@company.com, if that exists too, then create millj2@company.com
+</details>
+
+
+## Copy code to replit
+
+<details>
+  <summary>
+    ✅ Copy code to replit
+  </summary>
+  
+  - Copy the contents of functions.py, list_functions.py, multilist_functions.py, validations.py, employees.csv employees.txt to replit under folder hw06
+  - Comment out the existing import statement and code in main function body
+  - Copy and paste the import statement and code from main.py in your PyCharm Project
+  - Submit the URL on Canvas assignment
 </details>
