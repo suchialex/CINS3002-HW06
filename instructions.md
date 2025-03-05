@@ -322,14 +322,6 @@
 
 <details>
   <summary>
-    ✅ Copy code to replit
-  </summary>
-  
-  - Copy the code from hw06 to your repl in the appropriate folder
-</details>
-
-<details>
-  <summary>
     ✅ Bonus 2 pts: Modify generate_email() return unique email addresses
   </summary>
   
